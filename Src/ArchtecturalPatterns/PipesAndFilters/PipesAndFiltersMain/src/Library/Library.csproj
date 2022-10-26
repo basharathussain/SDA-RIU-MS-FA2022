@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>PipesAndFilters</AssemblyName>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta0005" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CognitiveLibrary.dll">
+      <HintPath>..\..\..\ExternalAPIs\PII_CognitiveAPI\src\Library\bin\Debug\net5.0\CognitiveLibrary.dll.dll</HintPath>
+    </Reference>
+    <Reference Include="TwitterApi">
+      <HintPath>..\..\..\ExternalAPIs\PII_TwitterApi\src\Library\bin\Debug\net5.0\TwitterApi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
